@@ -212,7 +212,7 @@ HELP_23 = """
  ❍ /tmute <userhandle x(m/h/d) ➠ mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
  ❍ /unmute <userhandle> ➠ unmutes a user. Can also be used as a reply, muting the replied to user.
 
- ❍ sᴘᴇᴄɪᴀʟ ᴄᴏᴍᴍᴀɴᴅs ➠ Nykaa 𝚋𝚊𝚗 , Nykaa 𝚖𝚞𝚝𝚎 , Nykaa 𝚙𝚛𝚘𝚖𝚘𝚝𝚎 ..... 𝚎𝚝𝚌.
+ ❍ sᴘᴇᴄɪᴀʟ ᴄᴏᴍᴍᴀɴᴅs ➠ Lofi 𝚋𝚊𝚗 , Lofi 𝚖𝚞𝚝𝚎 , Lofi 𝚙𝚛𝚘𝚖𝚘𝚝𝚎 ..... 𝚎𝚝𝚌.
  """
 HELP_24 = """
  ✽ <b>sᴇᴀʀᴄʜ ⏤͟͟͞͞★</b>
@@ -222,4 +222,3 @@ HELP_24 = """
  ❍ /stack <query>  ➠ Search stackoverflow for the given query.
  ❍ /image (/imgs) <query> ➠ Get the images regarding to your query
 """
-
