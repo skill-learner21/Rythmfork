@@ -52,7 +52,6 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("TitanNetwrk")
-              
                 await self.one.join_chat("TitanXSupport")
             except:
                 pass
@@ -74,8 +73,7 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-               await self.one.join_chat("TitanNetwrk")
-              
+                await self.one.join_chat("TitanNetwrk")
                 await self.one.join_chat("TitanXSupport")
             except:
                 pass
@@ -97,7 +95,6 @@ class Userbot(Client):
             await self.three.start()
             try:
                 await self.one.join_chat("TitanNetwrk")
-              
                 await self.one.join_chat("TitanXSupport")
             except:
                 pass
@@ -118,8 +115,7 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-               await self.one.join_chat("TitanNetwrk")
-              
+                await self.one.join_chat("TitanNetwrk")
                 await self.one.join_chat("TitanXSupport")
             except:
                 pass
@@ -141,7 +137,6 @@ class Userbot(Client):
             await self.five.start()
             try:
                 await self.one.join_chat("TitanNetwrk")
-              
                 await self.one.join_chat("TitanXSupport")
             except:
                 pass
