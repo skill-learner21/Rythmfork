@@ -19,7 +19,7 @@ async def start(_, msg):
     buttons = [
         [
           InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/TitanXSupport"),
-          InlineKeyboardButton("ʀᴇᴘᴏ", url="https://graph.org/file/5dd3cf619ab16866d348c.mp4"),
+          InlineKeyboardButton("ʀᴇᴘᴏ", url="https://t.me/Want_To_Know_Mee"),
           ],
     ]
     
