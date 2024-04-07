@@ -6,7 +6,7 @@ from pyrogram import filters
 SPAM_CHATS = []
 
 
-@app.on_message(filters.command(["mantion", "utag"]) | filters.command("@utag", "") & filters.group)
+@app.on_message(filters.command(["mantion", "stag"]) | filters.command("@stag", "") & filters.group)
 async def tag_all_users(_,message): 
     replied = message.reply_to_message  
     if len(message.command) < 2 and not replied:
@@ -51,7 +51,7 @@ async def tag_all_users(_,message):
         except Exception:
             pass        
            
-@app.on_message(filters.command("mantionoff", "utagstop") & ~filters.private)
+@app.on_message(filters.command("mantionoff", "stagstop") & ~filters.private)
 async def cancelcmd(_, message):
     chat_id = message.chat.id
     if chat_id in SPAM_CHATS:
