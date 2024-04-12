@@ -12,16 +12,16 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "OP_SHIVA_007")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Mr_DaNiSh_kHaN21")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "ALONE_xD_MUSIC_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME", "RYTHMUSIK_BOT)
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "˹𝙻𝙾𝙵𝙸 ✗ 𝙼𝚄𝚂𝙸𝙲˼")
+BOT_NAME = getenv("BOT_NAME", " Rʸ͢͢͢THM🆇BOT")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "ll_ZyRoo_ll")
+ASSUSERNAME = getenv("ASSUSERNAME", "RYTHMASSISTANT01)
 EVALOP = list(map(int, getenv("EVALOP", "6195725562").split()))
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sanasomani786:TJgADfpkI1XVUkKt@cluster0.ruhyad9.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://DanishDBINN:DanishDBINN@cluster0.pf7pm0f.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "10000"))
 
@@ -31,10 +31,10 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001929735324"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001981325108)
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6195725562"))
+OWNER_ID = int(getenv("OWNER_ID", "5392794822"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -51,8 +51,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TitanNetwrk")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TitanXSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RYTHM_UPDATE")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/RYTHM_DISCUSSION")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -79,8 +79,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 
 
 # Ge@STRINGSEASO_NBOT2 session from @STRINGSEASO_NBOT
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
+STRING1 = getenv("STRING_SESSION", "BQEcmCIAs1OaV5Xazih-A4lOSAx7i6Oi8K903v3wlVgfFrerrYl6UwNrLI_oSXTjRTmYNaSX4PaFysWzYKoUCCZGPrx3SNcGvqHgeh5l4RRLvyI4cXXIL3-3KX3iXGdFeilXIvqavIC-BY6cdwRt7Wi8fyAd4YXlWtmlluJWeFvsLSf-GgcyI3pBn1_lVFsMPBQUb_LvKS_HpYwW3tiOdYwvH6ZIWBIT9Z51xnAIUOgB2dvV0tuUkeOjDgIgO1YmrqxwLaraeDqg0iprhhnxjTHqYH72iRVvN9eOwEkekaSqxDs4khDRZ3bLLiLgwFCg2x30YRRyOkh1hkrH5BhWcM1-wiZpSgAAAAEqTznMAA")
+STRING2 = getenv("STRING_SESSION2", "AQAls2MAUkoQxAAydsncdTm0sLy4lu6d1cIAkSYaTwfKalv2X6AsLFPkOMKcYvEU4Pl0ZNqFIIqkvBllYqj8y9CQv1vgSY-2SQXQZYhknPomrxynmfbHJrHrjvzk11eF79yGIkwUIwNJtiOgJE2OUVGBGBb2WUsJpkpZTtY5CRory0S0g8anGICpCz7z9m870qyhJrkOek21CHNmtsG74-Am4M_77MzlVH6M5Un4hkx9kOZ47ft5Yy7OvD6JieGiq2VYzSYMF4Zb9qX7bwuOLJTZLechSKgmGrFziFToshnnrFcGnP-K0i1dJMg9n4QYCPwWlVlP7G-HrXv0tgWkd4kvV8E0EgAAAAFDDakGAA")
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
